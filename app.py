@@ -8,8 +8,6 @@ def home():
     return "HOME"
 
 
-
-
 client = MongoClient('mongodb+srv://wangzhenweitt:rdtF1YZHIhsP7kfj@cluster0.jeium.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 db = client['PYTHONTONY2024']
 users_collection = db['Users']
